@@ -13,7 +13,7 @@ namespace LinQLambda
         {
 
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = @"Password=habil;Persist Security Info=True;User ID=sa;Initial Catalog=fabesul;Data Source=dell-acr\sqlexpress";
+            con.ConnectionString = @"Password=XXXX;Persist Security Info=True;User ID=sa;Initial Catalog=XXXX;Data Source=dell-acr\sqlexpress";
             con.Open();
 
             SqlCommand cmd = new SqlCommand();
